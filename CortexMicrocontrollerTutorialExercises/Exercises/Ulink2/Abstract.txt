@@ -1,0 +1,49 @@
+The Blinky project is a simple demo program for the ST 'STM32F103RB' 
+microcontroller using Keil 'MCBSTM32' Evaluation Board, compliant 
+to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+   - HCLK    = SYSCLK  = 72.00 MHz
+
+ - SysTick Timer is used in interrupt mode
+ - 8 LEDs blink with speed depending on potentiometer position
+ - character LCD display shows
+   - init message
+   - bargraph (depending on potentiometer position)
+ - AD conversion is done in DMA mode
+ - AD settings: 12 bit resolution
+ - AD value is output onto serial port USART1 
+   - USART1 settings: 115200 baud, 8 data bits, no parity, 1 stop bit
+
+
+The Blinky program is available in different targets:
+
+  Simulator:          configured for software Simulator
+
+  STM32F103 Flash:    configured for on-chip Flash
+                      (used for production or target debugging)
+
+  STM32F103 OPT:      STM32F103 with Flash Options
+                      (used for programming)
+
+  STM32F103 RAM:      configured for on-chip RAM
+                      (used for target debugging)
+
+  STM32F103 Trace A:  runs from Internal Flash located on chip and is
+                      configured for Trace (shows variables AD_DbgVal, 
+                      \IRQ\SysTick_Hanlder\ticks and SFR USART1_DR in
+                      Logic Analyzer)
+
+  STM32F103 Trace B:  runs from Internal Flash located on chip and is
+                      configured for Trace (shows only SFR USART1_DR
+                      in Logic Analyzer including the first character in
+                      packet which is followed very fast by the second
+                      due to the UART HW transmit buffer)
+
+  STM32F103 Trace C:  runs from Internal Flash located on chip and is
+                      configured for Trace (shows variables AD_DbgVal, 
+                      \IRQ\SysTick_Hanlder\ticks in Logic Analyzer and
+                      the ITM printf output in the Serial-Wire Viewer)

@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'CMSIS Saturated Maths.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"startup_stm32f10x_md.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "startup_stm32f10x_md.o" "system_stm32f10x.o" 
+--strict --scatter "CMSIS Saturated Maths.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CMSIS Saturated Maths.map" -o "CMSIS Saturated Maths.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CMSIS Saturated Maths.axf'
+### ADS-LD Command File: 'CMSIS Saturated Maths.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CMSIS Saturated Maths.lnp', Handle=0x0000065C
+### Writing '.lnp' file
+### ADS-LD Command file 'CMSIS Saturated Maths.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,23 @@
+DSP Filter Project
+------------------
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL  =  12 MHz
+   - PLL0  = 400 MHz
+   - CCLK  = 100 MHz
+
+Filter
+------
+Filter Type:                 Lowpass
+Sampling Frequency [Hz]:       32000
+Passband Edge Frequency [Hz]:   3200
+Passband Ripple [dB]:              0.1
+Stopband Edge Frequency [Hz]:   9600
+Stopband Attenuation [dB]:        60
+
+
+DSP blocksize: 256
+
+Note:
+  CMSIS V1.3 (V2.0) compliant  -> changed LPC17xx files!

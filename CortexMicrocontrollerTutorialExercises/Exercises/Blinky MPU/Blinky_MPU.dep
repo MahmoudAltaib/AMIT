@@ -1,0 +1,57 @@
+Dependencies for Project 'Blinky', Target 'MPU': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4F58A90C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x4F910AEC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+F (.\Retarget.c)(0x4F58A90C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\Serial.h)(0x4F58A90C)
+F (.\Serial.c)(0x4F58A90C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\Serial.h)(0x4F58A90C)
+F (.\LED.c)(0x4F58A90C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\LED.h)(0x4F58A90C)
+F (.\IRQ.c)(0x52108F5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\LED.h)(0x4F58A90C)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\ADC.h)(0x4F58A90C)
+F (.\Blinky.c)(0x52108F5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\Serial.h)(0x4F58A90C)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\LED.h)(0x4F58A90C)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\ADC.h)(0x4F58A90C)
+F (.\ADC.c)(0x5120F3D3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-D__ADC_IRQ -D__UART0 -o .\flash\adc.o --omf_browse .\flash\adc.crf --depend .\flash\adc.d)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H)(0x51C81338)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x51C81338)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Blinky MPU\ADC.h)(0x4F58A90C)

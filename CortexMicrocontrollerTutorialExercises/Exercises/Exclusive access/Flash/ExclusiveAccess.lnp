@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\flash\startup_stm32f10x_md.o"
+".\flash\system_stm32f10x.o"
+".\flash\svc.o"
+".\flash\main.o"
+--library_type=microlib --strict --scatter ".\Flash\ExclusiveAccess.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\ExclusiveAccess.map" -o .\Flash\ExclusiveAccess.axf

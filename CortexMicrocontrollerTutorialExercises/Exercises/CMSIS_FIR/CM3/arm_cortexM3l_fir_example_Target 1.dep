@@ -1,0 +1,36 @@
+Dependencies for Project 'arm_cortexM3l_fir_example', Target 'Target 1': (DO NOT MODIFY !)
+F (..\arm_fir_data.c)(0x51C81826)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\Common\Include -I..\..\..\..\Include -I..\..\..\..\..\Device\ARM\ARMCM3\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM3 -o .\debug\arm_fir_data.o --omf_browse .\debug\arm_fir_data.crf --depend .\debug\arm_fir_data.d)
+I (C:\Keil\ARM\CMSIS\Include\arm_math.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (..\arm_fir_example_f32.c)(0x51C81826)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\Common\Include -I..\..\..\..\Include -I..\..\..\..\..\Device\ARM\ARMCM3\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM3 -o .\debug\arm_fir_example_f32.o --omf_browse .\debug\arm_fir_example_f32.crf --depend .\debug\arm_fir_example_f32.d)
+I (C:\Keil\ARM\CMSIS\Include\arm_math.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS_FIR\math_helper.h)(0x51C81822)
+F (..\math_helper.c)(0x51C81822)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\Common\Include -I..\..\..\..\Include -I..\..\..\..\..\Device\ARM\ARMCM3\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM3 -o .\debug\math_helper.o --omf_browse .\debug\math_helper.crf --depend .\debug\math_helper.d)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS_FIR\math_helper.h)(0x51C81822)
+I (C:\Keil\ARM\CMSIS\Include\arm_math.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (.\startup_ARMCM3.s)(0x51C811E4)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\debug\startup_armcm3.lst --xref -o .\debug\startup_armcm3.o --depend .\debug\startup_armcm3.d)
+F (.\system_ARMCM3.c)(0x51C811E6)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I..\..\Common\Include -I..\..\..\..\Include -I..\..\..\..\..\Device\ARM\ARMCM3\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM3 -o .\debug\system_armcm3.o --omf_browse .\debug\system_armcm3.crf --depend .\debug\system_armcm3.d)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS_FIR\CM3\ARMCM3.h)(0x51C811E6)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS_FIR\CM3\system_ARMCM3.h)(0x51C811E6)
+F (.\arm_cortexM3l_math.lib)(0x51C817CC)()

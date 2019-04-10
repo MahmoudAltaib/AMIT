@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "rtx_ex1.o" --omf_browse "rtx_ex1.crf" --depend "rtx_ex1.d" "RTX_ex1.c"

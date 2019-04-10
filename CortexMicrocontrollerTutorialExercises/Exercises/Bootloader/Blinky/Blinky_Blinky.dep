@@ -1,0 +1,66 @@
+Dependencies for Project 'Blinky', Target 'Blinky': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x4F58A878)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x5038D93A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+F (.\STM32F10xOPT.s)(0x4F58A878)()
+F (.\Retarget.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\Serial.h)(0x4F58A878)
+F (.\LCD_4bit.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\lcd_4bit.o --omf_browse .\flash\lcd_4bit.crf --depend .\flash\lcd_4bit.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+F (.\Blinky.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\LCD.h)(0x4F58A878)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\Serial.h)(0x4F58A878)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\LED.h)(0x4F58A878)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\ADC.h)(0x4F58A878)
+F (.\IRQ.c)(0x51DFCBA9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\LED.h)(0x4F58A878)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\ADC.h)(0x4F58A878)
+F (.\LED.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\LED.h)(0x4F58A878)
+F (.\ADC.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\adc.o --omf_browse .\flash\adc.crf --depend .\flash\adc.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\ADC.h)(0x4F58A878)
+F (.\Serial.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -D__USART1 -o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\Bootloader\Blinky\Serial.h)(0x4F58A878)

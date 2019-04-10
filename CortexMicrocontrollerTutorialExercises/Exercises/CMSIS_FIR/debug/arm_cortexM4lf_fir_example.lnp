@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\debug\arm_fir_data.o"
+".\debug\arm_fir_example_f32.o"
+".\debug\math_helper.o"
+".\debug\system_armcm4.o"
+".\debug\startup_armcm4.o"
+".\arm_cortexM4lf_math.lib"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\debug\arm_cortexM4lf_fir_example.map" -o .\debug\arm_cortexM4lf_fir_example.axf

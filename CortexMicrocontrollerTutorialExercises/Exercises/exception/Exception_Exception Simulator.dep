@@ -1,0 +1,16 @@
+Dependencies for Project 'Exception', Target 'Exception Simulator': (DO NOT MODIFY !)
+F (.\main.c)(0x502A63EB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F58A77C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50068BF2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F58A77C)
+F (.\system_stm32f10x.c)(0x4F589A68)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "system_stm32f10x.o" --omf_browse "system_stm32f10x.crf" --depend "system_stm32f10x.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F58A77C)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50068BF2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F58A77C)
+F (.\startup_stm32f10x_md.s)(0x4F58982C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list "startup_stm32f10x_md.lst" --xref -o "startup_stm32f10x_md.o" --depend "startup_stm32f10x_md.d")

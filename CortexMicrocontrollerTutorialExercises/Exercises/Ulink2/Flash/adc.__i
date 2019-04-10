@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\adc.o" --omf_browse ".\Flash\adc.crf" --depend ".\Flash\adc.d" "ADC.c"

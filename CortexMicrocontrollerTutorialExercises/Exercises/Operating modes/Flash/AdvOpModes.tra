@@ -1,0 +1,28 @@
+*** Creating Trace Output File '.\Flash\AdvOpModes.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\flash\system_stm32f10x.o"'
+### List of Objects: adding '".\flash\retarget.o"'
+### List of Objects: adding '".\flash\lcd_4bit.o"'
+### List of Objects: adding '".\flash\blinky.o"'
+### List of Objects: adding '".\flash\irq.o"'
+### List of Objects: adding '".\flash\led.o"'
+### List of Objects: adding '".\flash\adc.o"'
+### List of Objects: adding '".\flash\serial.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_stm32f10x_md.o" ".\flash\system_stm32f10x.o" ".\flash\retarget.o" ".\flash\lcd_4bit.o" ".\flash\blinky.o" ".\flash\irq.o" ".\flash\led.o" ".\flash\adc.o" ".\flash\serial.o" 
+--library_type=microlib --strict --scatter ".\Flash\AdvOpModes.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\AdvOpModes.map" -o .\Flash\AdvOpModes.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\AdvOpModes.axf'
+### ADS-LD Command File: '.\Flash\AdvOpModes.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\AdvOpModes.lnp', Handle=0x0000030C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\AdvOpModes.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

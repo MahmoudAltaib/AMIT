@@ -1,0 +1,7 @@
+--cpu Cortex-M4
+".\main.o"
+".\startup_armcm4.o"
+--strict --scatter ".\cortexM4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\cortexM4.map" -o .\cortexM4.axf

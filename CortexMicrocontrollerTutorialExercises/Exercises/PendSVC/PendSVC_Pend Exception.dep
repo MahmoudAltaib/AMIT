@@ -1,0 +1,5 @@
+Dependencies for Project 'PendSVC', Target 'Pend Exception': (DO NOT MODIFY !)
+F (.\main.c)(0x52122C11)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\SVC.c)(0x521224C6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\svc.o --omf_browse .\svc.crf --depend .\svc.d)
+F (.\startup_stm32f10x_md.s)(0x4F58A63C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x4F58A878)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)

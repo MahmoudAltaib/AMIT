@@ -1,0 +1,10 @@
+Dependencies for Project 'First', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x5087CA2C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (.\ADC.c)(0x51D3D672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+F (.\Blinky.c)(0x51D3D628)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\blinky.o --omf_browse .\blinky.crf --depend .\blinky.d)
+F (.\IRQ.c)(0x51D3D672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\irq.o --omf_browse .\irq.crf --depend .\irq.d)
+F (.\LCD_4bit.c)(0x51D3D672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\lcd_4bit.o --omf_browse .\lcd_4bit.crf --depend .\lcd_4bit.d)
+F (.\LED.c)(0x51D3D672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+F (.\Retarget.c)(0x51BD837A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+F (.\Serial.c)(0x51D3D68D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+F (.\system_stm32f10x.c)(0x51D3D672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)

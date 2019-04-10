@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'Interrupt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"svc_table.o"'
+### List of Objects: adding '".\RTX_CM3.lib"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"startup_stm32f10x_md.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "led.o" "main.o" "svc_table.o" "C:\Cortex Microcontroller Tutorial Exercises\release simulation\CMSIS RTX Signal Interrupt\RTX_CM3.lib" "rtx_conf_cm.o" "startup_stm32f10x_md.o" "system_stm32f10x.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --strict --scatter "Interrupt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Interrupt.map" -o Interrupt.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Interrupt.axf'
+### ADS-LD Command File: 'Interrupt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Interrupt.lnp', Handle=0x000001C4
+### Writing '.lnp' file
+### ADS-LD Command file 'Interrupt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

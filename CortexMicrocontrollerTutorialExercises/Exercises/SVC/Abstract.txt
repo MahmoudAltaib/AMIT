@@ -1,0 +1,25 @@
+The SVC project is a simple demo program for the ST 'STM32F103RB' 
+microcontroller using Keil 'MCBSTM32' Evaluation Board, compliant 
+to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+   - HCLK    = SYSCLK  = 72.00 MHz
+
+The SVC project shows how to implement and use software interrupt functions.
+It includes the SVC.c file which implements the SVC handler.
+The SVC function declarations and implementations are demonstrated
+in the file Test.c
+
+
+The SVC program is available in different targets:
+
+  Simulator:          configured for software Simulator
+
+  STM32F103 Flash:    configured for on-chip Flash
+                      (used for production or target debugging)
+
+  STM32F103 RAM:      configured for on-chip RAM
+                      (used for target debugging)

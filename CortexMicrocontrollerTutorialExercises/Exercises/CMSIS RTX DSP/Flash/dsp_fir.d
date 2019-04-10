@@ -1,0 +1,10 @@
+.\Flash\dsp_fir.o: DSP_FIR.c
+.\Flash\dsp_fir.o: C:\Keil\ARM\RV31\Inc\RTL.h
+.\Flash\dsp_fir.o: C:\Keil\ARM\RV31\Inc\math.h
+.\Flash\dsp_fir.o: arm_math.h
+.\Flash\dsp_fir.o: core_cm3.h
+.\Flash\dsp_fir.o: C:\Keil\ARM\RV31\Inc\stdint.h
+.\Flash\dsp_fir.o: core_cmInstr.h
+.\Flash\dsp_fir.o: core_cmFunc.h
+.\Flash\dsp_fir.o: C:\Keil\ARM\RV31\Inc\string.h
+.\Flash\dsp_fir.o: DSP_FIR.h

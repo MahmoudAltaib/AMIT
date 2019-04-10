@@ -1,0 +1,4 @@
+Dependencies for Project 'CMSIScoreSIMD', Target 'SIMD': (DO NOT MODIFY !)
+F (.\main.c)(0x5210A378)(-c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\system_ARMCM4.c)(0x501FA151)(-c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\system_armcm4.o --omf_browse .\system_armcm4.crf --depend .\system_armcm4.d)
+F (.\startup_ARMCM4.s)(0x4F58A630)(--cpu Cortex-M4 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\startup_armcm4.lst --xref -o .\startup_armcm4.o --depend .\startup_armcm4.d)

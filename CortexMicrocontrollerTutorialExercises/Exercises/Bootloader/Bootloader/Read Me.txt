@@ -1,0 +1,3 @@
+When you start the debugger in the bootloader project it will also load the C source code symbols for the blinky project.
+This allows you to seamlessly debug between the two projects.
+To ensure the symbols are loaded correctly ensure that the project path in loadAppSymbols.txt matches your installation

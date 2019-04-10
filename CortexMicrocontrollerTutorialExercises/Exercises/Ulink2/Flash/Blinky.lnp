@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\flash\startup_stm32f10x_md.o" ".\flash\system_stm32f10x.o" ".\flash\retarget.o" ".\flash\lcd_4bit.o" ".\flash\blinky.o" ".\flash\irq.o" ".\flash\led.o" ".\flash\adc.o" ".\flash\serial.o" 
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

@@ -1,0 +1,21 @@
+Dependencies for Project 'CMSIS PID', Target 'SIMD': (DO NOT MODIFY !)
+F (.\PID_example_f32.c)(0x51234C3B)(-c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM4 -D__FPU_PRESENT="1" -o .\pid_example_f32.o --omf_browse .\pid_example_f32.crf --depend .\pid_example_f32.d)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\arm_math.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (.\arm_cortexM4lf_math.lib)(0x51C817CC)()
+F (.\system_ARMCM4.c)(0x501FA151)(-c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-DARM_MATH_CM4 -D__FPU_PRESENT="1" -o .\system_armcm4.o --omf_browse .\system_armcm4.crf --depend .\system_armcm4.d)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\PID\ARMCM4.h)(0x4F58A630)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C817BA)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\PID\system_ARMCM4.h)(0x4F58A630)
+F (.\startup_ARMCM4.s)(0x4F58A630)(--cpu Cortex-M4.fp --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\startup_armcm4.lst --xref -o .\startup_armcm4.o --depend .\startup_armcm4.d)

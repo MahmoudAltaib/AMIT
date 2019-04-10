@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_md.o"
+".\system_stm32f10x.o"
+".\led.o"
+".\main.o"
+".\rtx_conf_cm.o"
+".\RTX_CM3.lib"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--strict --scatter ".\first.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\first.map" -o .\first.axf

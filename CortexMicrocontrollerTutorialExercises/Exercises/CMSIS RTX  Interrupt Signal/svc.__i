@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "svc.o" --omf_browse "svc.crf" --depend "svc.d" "SVC.c"

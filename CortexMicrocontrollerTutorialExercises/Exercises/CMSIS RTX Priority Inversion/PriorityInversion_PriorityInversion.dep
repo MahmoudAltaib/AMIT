@@ -1,0 +1,7 @@
+Dependencies for Project 'PriorityInversion', Target 'PriorityInversion': (DO NOT MODIFY !)
+F (.\led.c)(0x5032417E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\led.o --omf_browse .\led.crf --depend .\led.d)
+F (.\main.c)(0x5210A18F)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\startup_stm32f10x_md.s)(0x4F58A63C)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+F (.\RTX_CM3.lib)(0x502E4EAC)()
+F (.\RTX_Conf_CM.c)(0x5120DE04)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\rtx_conf_cm.o --omf_browse .\rtx_conf_cm.crf --depend .\rtx_conf_cm.d)

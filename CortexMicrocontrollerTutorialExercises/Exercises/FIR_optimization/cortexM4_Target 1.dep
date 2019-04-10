@@ -1,0 +1,4 @@
+Dependencies for Project 'cortexM4', Target 'Target 1': (DO NOT MODIFY !)
+F (.\system_ARMCM4.c)(0x51225618)(-c --cpu Cortex-M4.fp --li -g -O3 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "system_armcm4.o" --omf_browse "system_armcm4.crf" --depend "system_armcm4.d")
+F (.\startup_ARMCM4.s)(0x51225E74)(--cpu Cortex-M4 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --list "startup_ARMCM4.lst" --xref -o "startup_ARMCM4.o" --depend "startup_ARMCM4.d")
+F (.\main.c)(0x51273004)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o "main.o" --omf_browse "main.crf" --depend "main.d")

@@ -1,0 +1,469 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\drebar01\Documents\Projects\MDK_projects\Freedom_Blinky\Blinky.uvproj
+Project File Date:  07/13/2012
+
+<h2>Output:</h2>
+Build target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+src\Blinky.c(4): warning:  #951-D: return type of function "main" must be "int"
+src\Blinky.c(9): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=632 RO-data=408 RW-data=4 ZI-data=1028  
+"Blinky.axf" - 0 Error(s), 2 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(9): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=632 RO-data=408 RW-data=4 ZI-data=1028  
+"Blinky.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Clean started: Project: 'Blinky'
+   deleting intermediate output files for target 'CMSIS-DAP Flash'
+Build target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+src\Blinky.c(11): error:  #20: identifier "PortB" is undefined
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=672 RO-data=368 RW-data=4 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=716 RO-data=324 RW-data=4 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(30): error:  #77-D: this declaration has no storage class or type specifier
+src\Blinky.c(32): error:  #65: expected a ";"
+src\Blinky.c(42): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=912 RO-data=224 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=984 RO-data=224 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=988 RO-data=224 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=984 RO-data=224 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(63): warning:  #223-D: function "change_leds" declared implicitly
+linking...
+.\Obj\Blinky.axf: Error: L6218E: Undefined symbol change_leds (referred from blinky.o).
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=988 RO-data=224 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1000 RO-data=412 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+linking...
+Program Size: Code=1004 RO-data=412 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+linking...
+Program Size: Code=1104 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1104 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1104 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1092 RO-data=312 RW-data=8 ZI-data=1024  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1152 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1160 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1168 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1168 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(61): error:  #109: expression must have (pointer-to-) function type
+src\Blinky.c(67): error:  #65: expected a ";"
+Target not created
+Rebuild target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+src\Blinky.c(61): error:  #109: expression must have (pointer-to-) function type
+src\Blinky.c(67): error:  #65: expected a ";"
+Target not created
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(61): error:  #109: expression must have (pointer-to-) function type
+src\Blinky.c(67): error:  #65: expected a ";"
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(67): error:  #65: expected a ";"
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1200 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1212 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1204 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(65): error:  #65: expected a ";"
+src\Blinky.c(67): error:  #109: expression must have (pointer-to-) function type
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(67): error:  #109: expression must have (pointer-to-) function type
+Target not created
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(67): error:  #109: expression must have (pointer-to-) function type
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1184 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1192 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+src\Blinky.c(47): error:  #137: expression must be a modifiable lvalue
+src\Blinky.c(48): error:  #20: identifier "PTD0" is undefined
+src\Blinky.c(48): error:  #20: identifier "PTOR" is undefined
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+src\Blinky.c(47): error:  #137: expression must be a modifiable lvalue
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+src\Blinky.c(47): error:  #137: expression must be a modifiable lvalue
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+src\Blinky.c(47): error:  #137: expression must be a modifiable lvalue
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+src\Blinky.c(47): error:  #137: expression must be a modifiable lvalue
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(45): error:  #29: expected an expression
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1128 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1132 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1128 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+linking...
+Program Size: Code=1128 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+linking...
+Program Size: Code=1128 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1128 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1132 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+assembling startup_MKL25Z4.s...
+compiling Blinky.c...
+src\Blinky.c(14): error:  #18: expected a ")"
+src\Blinky.c(56): error:  #20: identifier "RED_SHIFT" is undefined
+src\Blinky.c(60): error:  #20: identifier "GREEN_SHIFT" is undefined
+src\Blinky.c(64): error:  #20: identifier "BLUE_SHIFT" is undefined
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(14): error:  #18: expected a ")"
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(14): error:  #18: expected a ")"
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+src\Blinky.c(14): error:  #18: expected a ")"
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1244 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=1244 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+compiling Blinky.c...
+src\Blinky.c(93): warning: C3017W: local_tick may be used before being set
+linking...
+Program Size: Code=876 RO-data=224 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\drebar01\\Documents\\Projects\\MDK_projects\\Freedom_Blinky\\Obj\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+linking...
+Program Size: Code=888 RO-data=224 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling system_MKL25Z4.c...
+compiling Blinky.c...
+linking...
+Program Size: Code=1244 RO-data=312 RW-data=12 ZI-data=1028  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).
+Build target 'CMSIS-DAP Flash'
+compiling Blinky.c...
+compiling Retarget.c...
+linking...
+.\Obj\Blinky.axf: Error: L6218E: Undefined symbol getkey (referred from retarget.o).
+.\Obj\Blinky.axf: Error: L6218E: Undefined symbol sendchar (referred from retarget.o).
+Target not created
+Build target 'CMSIS-DAP Flash'
+compiling Retarget.c...
+src\Retarget.c(25): warning:  #223-D: function "sendchar" declared implicitly
+src\Retarget.c(29): warning:  #223-D: function "sendchar" declared implicitly
+src\Retarget.c(29): warning:  #223-D: function "getkey" declared implicitly
+src\Retarget.c(40): warning:  #223-D: function "sendchar" declared implicitly
+linking...
+.\Obj\Blinky.axf: Error: L6218E: Undefined symbol getkey (referred from retarget.o).
+.\Obj\Blinky.axf: Error: L6218E: Undefined symbol sendchar (referred from retarget.o).
+Target not created

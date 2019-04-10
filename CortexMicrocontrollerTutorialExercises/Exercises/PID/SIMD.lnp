@@ -1,0 +1,9 @@
+--cpu Cortex-M4.fp
+".\pid_example_f32.o"
+".\arm_cortexM4lf_math.lib"
+".\system_armcm4.o"
+".\startup_armcm4.o"
+--strict --scatter ".\SIMD.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SIMD.map" -o .\SIMD.axf

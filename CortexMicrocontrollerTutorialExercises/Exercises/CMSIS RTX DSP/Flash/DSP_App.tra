@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\Flash\DSP_App.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\rtx_conf_cm.o"'
+### List of Objects: adding '".\flash\led.o"'
+### List of Objects: adding '".\flash\timer.o"'
+### List of Objects: adding '".\flash\adc.o"'
+### List of Objects: adding '".\flash\dac.o"'
+### List of Objects: adding '".\flash\dsp_app.o"'
+### List of Objects: adding '".\flash\dsp_iir.o"'
+### List of Objects: adding '".\arm_cortexM3_math.lib"'
+### List of Objects: adding '".\RTX_CM3.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\rtx_conf_cm.o" ".\flash\led.o" ".\flash\timer.o" ".\flash\adc.o" ".\flash\dac.o" ".\flash\dsp_app.o" ".\flash\dsp_iir.o" "C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX DSP\arm_cortexM3_math.lib" "C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX DSP\RTX_CM3.lib" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter ".\Flash\DSP_App.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\DSP_App.map" -o .\Flash\DSP_App.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\DSP_App.axf'
+### ADS-LD Command File: '.\Flash\DSP_App.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\DSP_App.lnp', Handle=0x0000224C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\DSP_App.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

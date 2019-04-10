@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'cortexM4.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"startup_armcm4.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 "main.o" "startup_armcm4.o" 
+--strict --scatter "cortexM4.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\cortexM4.map" -o cortexM4.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'cortexM4.axf'
+### ADS-LD Command File: 'cortexM4.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'cortexM4.lnp', Handle=0x00001E74
+### Writing '.lnp' file
+### ADS-LD Command file 'cortexM4.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

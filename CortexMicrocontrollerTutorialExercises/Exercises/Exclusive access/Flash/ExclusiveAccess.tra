@@ -1,0 +1,23 @@
+*** Creating Trace Output File '.\Flash\ExclusiveAccess.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\flash\system_stm32f10x.o"'
+### List of Objects: adding '".\flash\svc.o"'
+### List of Objects: adding '".\flash\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_stm32f10x_md.o" ".\flash\system_stm32f10x.o" ".\flash\svc.o" ".\flash\main.o" 
+--library_type=microlib --strict --scatter ".\Flash\ExclusiveAccess.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\ExclusiveAccess.map" -o .\Flash\ExclusiveAccess.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\ExclusiveAccess.axf'
+### ADS-LD Command File: '.\Flash\ExclusiveAccess.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\ExclusiveAccess.lnp', Handle=0x00000358
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\ExclusiveAccess.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

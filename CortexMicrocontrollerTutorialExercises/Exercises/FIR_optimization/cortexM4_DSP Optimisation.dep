@@ -1,0 +1,9 @@
+Dependencies for Project 'cortexM4', Target 'DSP Optimisation': (DO NOT MODIFY !)
+F (.\main.c)(0x51DFC64F)(-c --cpu Cortex-M4 --li -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\FIR_optimization\core_cm4.h)(0x4F6B0602)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C817BA)
+F (.\system_ARMCM4.c)(0x51226428)()
+F (.\startup_ARMCM4.s)(0x51226C84)(--cpu Cortex-M4 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\startup_armcm4.lst --xref -o .\startup_armcm4.o --depend .\startup_armcm4.d)

@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'Idle.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f10x_md.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '".\RTX_CM3.lib"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"led.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_stm32f10x_md.o" "main.o" "system_stm32f10x.o" "C:\Cortex Microcontroller Tutorial Exercises\release simulation\CMSIS RTX Idle\RTX_CM3.lib" "rtx_conf_cm.o" "led.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --strict --scatter "Idle.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Idle.map" -o Idle.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Idle.axf'
+### ADS-LD Command File: 'Idle.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Idle.lnp', Handle=0x00000158
+### Writing '.lnp' file
+### ADS-LD Command file 'Idle.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

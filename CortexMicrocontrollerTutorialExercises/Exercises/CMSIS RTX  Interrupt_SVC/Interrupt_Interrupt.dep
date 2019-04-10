@@ -1,0 +1,33 @@
+Dependencies for Project 'Interrupt', Target 'Interrupt': (DO NOT MODIFY !)
+F (.\led.c)(0x5032417E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+F (.\main.c)(0x521096E3)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX  Interrupt_SVC\cmsis_os.h)(0x5033B0E1)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX  Interrupt_SVC\LED.h)(0x5032417E)
+F (.\SVC_Table.s)(0x503648BC)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\svc_table.lst --xref -o .\svc_table.o --depend .\svc_table.d)
+F (.\RTX_CM3.lib)(0x502E4EAC)()
+F (.\RTX_Conf_CM.c)(0x50364939)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\rtx_conf_cm.o --omf_browse .\rtx_conf_cm.crf --depend .\rtx_conf_cm.d)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX  Interrupt_SVC\cmsis_os.h)(0x5033B0E1)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (C:\Cortex Microcontroller Tutorial Exercises\Cortex Microcontroller Tutorial Exercises\CMSIS RTX  Interrupt_SVC\RTX_CM_lib.h)(0x50227B24)
+F (.\startup_stm32f10x_md.s)(0x4F58A63C)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x4F58A878)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)

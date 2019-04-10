@@ -1,0 +1,67 @@
+Dependencies for Project 'Blinky', Target 'Simulator': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x5087BCAC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Flash\startup_stm32f10x_md.o" --depend ".\Flash\startup_stm32f10x_md.d")
+F (.\system_stm32f10x.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\system_stm32f10x.o" --omf_browse ".\Flash\system_stm32f10x.crf" --depend ".\Flash\system_stm32f10x.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+F (.\STM32F10xOPT.s)(0x5087BCAC)()
+F (.\Retarget.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\retarget.o" --omf_browse ".\Flash\retarget.crf" --depend ".\Flash\retarget.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9D1D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB15F20)
+I (Serial.h)(0x5087BCAC)
+F (.\LCD_4bit.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\lcd_4bit.o" --omf_browse ".\Flash\lcd_4bit.crf" --depend ".\Flash\lcd_4bit.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+F (.\Blinky.c)(0x51D68CFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\blinky.o" --omf_browse ".\Flash\blinky.crf" --depend ".\Flash\blinky.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9D1D0)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+I (LCD.h)(0x5087BCAC)
+I (Serial.h)(0x5087BCAC)
+I (LED.h)(0x5087BCAC)
+I (ADC.h)(0x5087BCAC)
+F (.\IRQ.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\irq.o" --omf_browse ".\Flash\irq.crf" --depend ".\Flash\irq.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+I (LED.h)(0x5087BCAC)
+I (ADC.h)(0x5087BCAC)
+F (.\LED.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\led.o" --omf_browse ".\Flash\led.crf" --depend ".\Flash\led.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+I (LED.h)(0x5087BCAC)
+F (.\ADC.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\adc.o" --omf_browse ".\Flash\adc.crf" --depend ".\Flash\adc.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+I (ADC.h)(0x5087BCAC)
+F (.\Serial.c)(0x5087BCAC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\serial.o" --omf_browse ".\Flash\serial.crf" --depend ".\Flash\serial.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\STM32F10x.h)(0x51D3D628)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x5087BC28)
+I (Serial.h)(0x5087BCAC)
+F (.\Abstract.txt)(0x5087BCAC)()

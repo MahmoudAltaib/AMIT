@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'Rendezvous.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '".\RTX_CM3.lib"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"startup_stm32f10x_md.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "led.o" "main.o" "C:\Cortex Microcontroller Tutorial Exercises\release simulation\CMSIS RTX Semaphore Rendezvous\RTX_CM3.lib" "rtx_conf_cm.o" "startup_stm32f10x_md.o" "system_stm32f10x.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --strict --scatter "Rendezvous.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Rendezvous.map" -o Rendezvous.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Rendezvous.axf'
+### ADS-LD Command File: 'Rendezvous.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Rendezvous.lnp', Handle=0x000001C0
+### Writing '.lnp' file
+### ADS-LD Command file 'Rendezvous.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

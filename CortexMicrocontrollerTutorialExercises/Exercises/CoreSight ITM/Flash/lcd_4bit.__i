@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -D__USE_LCD -D__USART1 -o ".\Flash\lcd_4bit.o" --omf_browse ".\Flash\lcd_4bit.crf" --depend ".\Flash\lcd_4bit.d" "LCD_4bit.c"

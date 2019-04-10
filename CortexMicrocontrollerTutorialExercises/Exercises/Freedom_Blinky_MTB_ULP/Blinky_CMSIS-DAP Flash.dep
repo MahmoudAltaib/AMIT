@@ -1,0 +1,4 @@
+Dependencies for Project 'Blinky', Target 'CMSIS-DAP Flash': (DO NOT MODIFY !)
+F (.\src\system_MKL25Z4.c)(0x500084AA)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-o .\obj\system_mkl25z4.o --omf_browse .\obj\system_mkl25z4.crf --depend .\obj\system_mkl25z4.d)
+F (.\src\startup_MKL25Z4.s)(0x4FEDE3B4)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis--list .\startup_mkl25z4.lst --xref -o .\obj\startup_mkl25z4.o --depend .\obj\startup_mkl25z4.d)
+F (.\src\Blinky.c)(0x51DFC7F2)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-o .\obj\blinky.o --omf_browse .\obj\blinky.crf --depend .\obj\blinky.d)

@@ -1,0 +1,6 @@
+Dependencies for Project 'SVC', Target 'Simulator': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x4F58A87C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x4F58A87C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\system_stm32f10x.o --depend .\flash\system_stm32f10x.d)
+F (.\SVC.c)(0x4FFD67D2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\svc.o --depend .\flash\svc.d)
+F (.\main.c)(0x52108D2B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\main.o --depend .\flash\main.d)
+F (.\Abstract.txt)(0x4F58A87C)()

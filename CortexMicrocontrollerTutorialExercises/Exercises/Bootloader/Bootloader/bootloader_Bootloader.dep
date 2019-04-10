@@ -1,0 +1,18 @@
+Dependencies for Project 'bootloader', Target 'Bootloader': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x4F58A63C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (.\main_boot.c)(0x51DFCBA9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\main_boot.o --omf_browse .\main_boot.crf --depend .\main_boot.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32F10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+F (.\system_stm32f10x.c)(0x5038D740)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C8125A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C8125A)
+F (.\loadAppSymbols.ini)(0x5210809C)()
+F (.\Read Me.txt)(0x52108335)()
